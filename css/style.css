@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+		
+}
+
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color:#333;
+}
+
+li{
+	list-style: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+header{
+    padding: 50px 0px;
+}
+
+.container{
+    width: calc(100% - 200px);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.logo{
+    width: 20%;
+    flex: 0 0 auto;
+}
+.logo a{}
+.logo a img{}
+
+nav{
+    width: 80%;
+    flex: 0 0 auto;
+}
+nav ul{justify-content: flex-end;}
+nav ul li{}
+nav ul li a{
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px 30px;
+    display: block;
+    transition-duration: .5s;
+}
+nav ul li a:hover{
+    background: #333;
+    color: #fff;
+}
+
+/*banner section css*/
+
+.banner-section{}
+.banner-section img{
+	width: 100%;
+}
+
+/*Article section css*/
+
+.blog-section{}
+.col-1-1{
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 100px;
+}
+.col-2-1{
+    width: 50%;
+    flex: 0 0 auto;
+    padding: 50px;
+}
+
+.pad-left{
+	padding-left: 100px;}
+.pad-right{
+	padding-right: 100px;}
+
+
+article{}
+article span{color: #33333369;display: block;margin-top: 10px;}
+article h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+article h1 a{
+    color: #333;
+    text-transform: initial;
+}
+article h1 a:hover{
+	opacity: 0.5;}
+article p{
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+article a{
+    color: #33333369;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+article img{
+    width: 100%;
+    /* padding: 50px; */
+}
+
+
+/*Footer*/
+
+footer{
+    background: #C3C3C3;
+}
+
+footer .col-2-1{
+	
+padding: 30px 100px;
+}
+
+ul.footer-menu{}
+ul.footer-menu li{}
+ul.footer-menu li a{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding-right: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+ul.footer-menu li a:hover{
+	opacity: 0.5;}
+
+
+ul.social-link{
+    justify-content: flex-end;
+}
+ul.social-link li{}
+ul.social-link li span{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 20px;
+    /* text-transform: uppercase; */
+    font-size: 14px;
+}
+ul.social-link li a{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+ul.social-link li a:hover{
+	opacity: 0.5;
+
+}
+
+
